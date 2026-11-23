@@ -1,0 +1,137 @@
+export const landingSections = [
+  { id: 'top', number: '01', label: 'YOYO 世界' },
+  { id: 'style', number: '02', label: '视觉基因' },
+  { id: 'composition', number: '03', label: '空间构图' },
+  { id: 'applications', number: '04', label: '应用方向' },
+  { id: 'experiments', number: '05', label: '创意实验' },
+] as const
+
+export const visualPrinciples = [
+  {
+    id: 'color',
+    number: '01',
+    title: 'Color system',
+    name: '紫色与荧光绿',
+    detail: '主紫 #7139E8 建立识别，荧光绿 #B8F32F 提供行动焦点，纸白与墨色负责阅读。',
+  },
+  {
+    id: 'geometry',
+    number: '02',
+    title: 'Modular geometry',
+    name: '可组合的几何模块',
+    detail: '重复、连接、增减模块，形成能够扩展的画面，而不是散落的装饰图形。',
+  },
+  {
+    id: 'perspective',
+    number: '03',
+    title: 'Isometric perspective',
+    name: '统一的等距视角',
+    detail: '场景保持一致的空间轴线，让建筑、路径与角色共享同一套深度关系。',
+  },
+  {
+    id: 'outline',
+    number: '04',
+    title: 'Outline & shadow',
+    name: '稳定轮廓与硬边阴影',
+    detail: '清晰描边和克制的赛璐璐明暗，使物体从纸白背景中准确分离。',
+  },
+  {
+    id: 'composition',
+    number: '05',
+    title: 'Spatial composition',
+    name: '前中后景的层级关系',
+    detail: '通过尺度、遮挡和留白安排视觉重心，保持主体可读并让空间自然延展。',
+  },
+] as const
+
+export const experimentDirectory = [
+  {
+    id: 'gallery',
+    number: '01',
+    title: 'Modular Gallery',
+    label: '模块画廊',
+    description: '按视觉属性筛选 16 个等距场景，并打开单件作品详情。',
+    href: '#gallery',
+    status: 'LIVE',
+  },
+  {
+    id: 'composer',
+    number: '02',
+    title: 'Spatial Composer',
+    label: '空间构图',
+    description: '开关背景、主体、前景和注释图层，直接观察构图层级。',
+    href: '#composition',
+    status: 'LIVE',
+  },
+  {
+    id: 'assets',
+    number: '03',
+    title: 'Visual Asset Explorer',
+    label: '资产探索器',
+    description: '搜索主图和辅助资产，查看来源、尺寸、透明度与接入状态。',
+    href: '#assets',
+    status: 'LIVE',
+  },
+  {
+    id: 'poster',
+    number: '04',
+    title: 'Motion Poster',
+    label: '动态海报',
+    description: '选择场景并控制海报运动，支持暂停与静态预览。',
+    href: '#motion-poster',
+    status: 'LIVE',
+  },
+  {
+    id: 'workflow',
+    number: '05',
+    title: 'Workflow Scene',
+    label: '工作流场景',
+    description: '选择流程节点，查看模块、连接关系和步骤说明。',
+    href: '#workflow-scene',
+    status: 'LIVE',
+  },
+  {
+    id: 'playground',
+    number: '06',
+    title: 'Modular Playground',
+    label: '模块实验台',
+    description: '选择颜色、放置或移除模块，并重置当前构图。',
+    href: '#modular-playground',
+    status: 'LIVE',
+  },
+] as const
+
+export const workflowSteps = [
+  {
+    id: 'collect',
+    number: '01',
+    title: 'Collect',
+    label: '收集素材',
+    description: '将图像、界面和内容线索汇入同一套资产目录。',
+    asset: 'hero-06',
+  },
+  {
+    id: 'compose',
+    number: '02',
+    title: 'Compose',
+    label: '建立构图',
+    description: '明确主次、遮挡与间距，先让视觉层级成立。',
+    asset: 'hero-04',
+  },
+  {
+    id: 'connect',
+    number: '03',
+    title: 'Connect',
+    label: '连接系统',
+    description: '让模块和节点在一条清晰的关系路径上协作。',
+    asset: 'hero-07',
+  },
+  {
+    id: 'publish',
+    number: '04',
+    title: 'Publish',
+    label: '发布体验',
+    description: '把视觉系统落入真实页面，并在不同屏幕完成验证。',
+    asset: 'hero-11',
+  },
+] as const

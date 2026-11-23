@@ -1,0 +1,25 @@
+:root {
+  --reference-header-height: 56px;
+  --reference-hero-height: 844px;
+  --reference-craft-height: 918px;
+  --reference-applications-height: 970px;
+  --reference-manifesto-height: 485px;
+  --reference-archive-height: 2939px;
+  --reference-closing-height: 534px;
+  --header-max-width: 1368px;
+  --content-max-width: 1140px;
+  --closing-max-width: 1240px;
+  --page-gutter: 36px;
+  --hero-title-size: 58px;
+  --hero-title-line-height: 1.12;
+  --body-font-size: 14px;
+  --body-line-height: 1.8;
+  --z-background: 0;
+  --z-atmosphere: 1;
+  --z-midground: 2;
+  --z-gallery: 3;
+  --z-foreground: 4;
+  --z-decoration: 5;
+  --z-content: 6;
+  --z-controls: 10;
+}
