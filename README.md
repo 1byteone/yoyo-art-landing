@@ -4,7 +4,7 @@ YOYO Art Landing 是一个围绕模块化等距插画、编辑式排版和可操
 
 ## 预览
 
-- 在线页面：部署完成后更新此处
+- 在线页面：https://yoyo-art-landing.vercel.app
 - GitHub：<https://github.com/1byteone/yoyo-art-landing>
 - 本地开发：<http://127.0.0.1:4179/>
 
